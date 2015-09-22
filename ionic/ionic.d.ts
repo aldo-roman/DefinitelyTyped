@@ -18,7 +18,7 @@ declare module ionic {
             cancel?: ()=>any;
             buttonClicked?: (index: any)=>any;
             destructiveButtonClicked?: ()=>any;
-            cancelOnStateChange?: boolean;
+            cancelOnStateChange?: boolean;s
             cssClass?: string;
         }
     }
@@ -205,7 +205,7 @@ declare module ionic {
             scrollBy(left: number, top: number, shouldAnimate?: boolean): void;
             zoomTo(level: number, animate?: boolean, originLeft?: number, originTop?: number): void;
             zoomBy(factor: number, animate?: boolean, originLeft?: number, originTop?: number): void;
-            getScrollPosition(): {left: number, top: number};
+            getScrollPosition(): {left: number; top: number};
             anchorScroll(shouldAnimate?: boolean): void;
             freezeScroll(shouldFreeze?: boolean): boolean;
             freezeAllScrolls(shouldFreeze?: boolean): boolean;
